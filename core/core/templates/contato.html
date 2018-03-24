@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contato</title>
+    </head>
+    <body>
+        <h1>Integrantes</h1><br>
+        <ul>
+            <li>Beatriz Maciel - beamaciel97@gmail.com</li>
+            <li>Ingrid Gomes Stofalete - stofalete@gmail.com</li>
+            <li>Jéssica de Oliveira Campos Piva - jessica.piva05@gmail.com</li>
+            <li>Thais Regina Soares - truethaisregina@gmail.com</li>
+            <li>Willian Pires da Conceição - wpcedy@gmail.com</li>
+        </ul>
+        <form action="" method="POST">
+            {% csrf_token %}
+            Seu nome:<br>
+            <input type="text" name="nome"><br><br>
+            <input type="submit" value="Entrar em contato">
+        </form>
+    </body>
+</html>
